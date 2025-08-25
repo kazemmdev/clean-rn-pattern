@@ -1,14 +1,12 @@
 import { Screen, Text } from "@/shared/ui"
 
-const Stats = () => {
+export const HistoryScreen = () => {
   return (
     <Screen>
-      <Text className="text-2xl font-semibold">Stats</Text>
+      <Text className="text-2xl font-semibold">Todos</Text>
       <Text className="mt-2 text-neutral-600 dark:text-neutral-300">
-        Placeholder for completion rates, etc.
+        We’ll wire this to the feature soon.
       </Text>
     </Screen>
   )
 }
-
-export default Stats
