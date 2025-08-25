@@ -4,23 +4,8 @@
   "singleQuote": false,
   "semi": false,
   "tabWidth": 2,
-  "plugins": ["prettier-plugin-tailwindcss", "prettier", "@ianvs/prettier-plugin-sort-imports"],
   "useTabs": false,
   "arrowParens": "avoid",
   "trailingComma": "none",
-  "importOrder": [
-    "^(react/(.*)$)|^(react$)",
-    "<THIRD_PARTY_MODULES>",
-    "",
-    "^@/config/(.*)$",
-    "^@/lib/(.*)$",
-    "^@/hooks/(.*)$",
-    "^@/components/ui/(.*)$",
-    "^@/components/(.*)$",
-    "^@/registry/(.*)$",
-    "^@/styles/(.*)$",
-    "^@/app/(.*)$",
-    "",
-    "^[./]"
-  ]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }
