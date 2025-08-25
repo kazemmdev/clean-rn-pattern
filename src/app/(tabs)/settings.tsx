@@ -1,4 +1,4 @@
-import { Screen, Text } from '@/shared/ui';
+import { Screen, Text } from "@/shared/ui"
 
 const Stats = () => {
   return (
