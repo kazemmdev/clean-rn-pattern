@@ -12,20 +12,6 @@ const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({ baseDirectory: __dirname });
 
 export default [
-  // Ignores (replaces .eslintignore)
-  {
-    ignores: [
-      'node_modules/**',
-      'android/**',
-      'ios/**',
-      'build/**',
-      'dist/**',
-      '*.jsbundle',
-      ".expo/**",
-      "*.js"
-    ],
-  },
-
   // Base JS + TS rules (flat-native)
   js.configs.recommended,
   ...tseslint.configs.recommended,
@@ -34,7 +20,7 @@ export default [
   ...compat.extends(
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
-    // 'plugin:react-native/recommended',
+    'plugin:react-native/recommended',
     'plugin:import/typescript',
     'plugin:prettier/recommended'
   ),
