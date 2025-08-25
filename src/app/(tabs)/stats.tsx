@@ -7,7 +7,7 @@ const Stats = () => {
       <Text className="mt-2 text-neutral-600 dark:text-neutral-300">
         Placeholder for completion rates, etc.
       </Text>
-      <Button className="mt-4" label="Press me" />
+      <Button className="mt-4 h-10" label="Press me" />
     </Screen>
   )
 }
