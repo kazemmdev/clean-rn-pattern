@@ -1,12 +1,17 @@
-import { Screen, Text } from "@/shared/ui"
+import { Screen } from "@/shared/ui"
+import Counter from "@/features/setting/components/counter"
+import CallNavigation from "@/features/setting/components/call-navigation"
+import Intro from "@/features/setting/components/intro"
+import { View } from "react-native"
 
 export const SettingScreen = () => {
   return (
-    <Screen>
-      <Text className="text-2xl font-semibold">Todos</Text>
-      <Text className="mt-2 text-neutral-600 dark:text-neutral-300">
-        We’ll wire this to the feature soon.
-      </Text>
+    <Screen className="flex flex-col justify-between">
+      <View>
+        <Intro />
+        <Counter />
+      </View>
+      <CallNavigation />
     </Screen>
   )
 }
