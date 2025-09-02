@@ -1,3 +1,8 @@
 import { HomeScreen } from "@/features/home"
+import FreezeOnBlur from "@/shared/components/freeze-on-blur"
 
-export default () => <HomeScreen />
+export default () => (
+  <FreezeOnBlur>
+    <HomeScreen />
+  </FreezeOnBlur>
+)

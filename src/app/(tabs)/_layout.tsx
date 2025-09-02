@@ -13,6 +13,7 @@ const TabLayout = () => {
         headerShown: false,
         tabBarStyle: { height: 56 },
         tabBarLabelStyle: { fontSize: 12 },
+        // detachInactiveScreens: false,
         lazy: true
       }}
     >
