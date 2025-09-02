@@ -1,4 +1,5 @@
 import "../global.css"
+import "../shared/lib/wdyr"
 import "react-native-gesture-handler"
 
 import { queryClient } from "@/shared/lib/query"
